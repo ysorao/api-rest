@@ -1,0 +1,41 @@
+@api =http://localhost:3000
+
+### LIST ALL PRODUCTS
+GET {{api}}/products
+
+### VIEW ONE PRODUCT BY ID
+GET {{api}}/products/29
+
+
+
+### COUNT PRODUCTS
+GET   {{api}}/count
+
+
+### CREATE A  NEW PRODUCT
+POST {{api}}/products 
+Content-Type: application/json
+Authorization: false  
+
+{
+ "name":"desktop",
+ "description":"mader",
+ "quantity":7
+}
+
+
+### DELETE A PRODUCT BY ID
+DELETE {{api}}/products/30
+
+### UPDATE A PRODUCT
+PUT {{api}}/products/32
+Content-Type: application/json
+
+{
+ "name":"sicsors",
+ "description":"sicsors rosary",
+ "quantity":100
+}
+
+
+
