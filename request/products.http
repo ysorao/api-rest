@@ -25,10 +25,10 @@ Authorization: false
 
 
 ### DELETE A PRODUCT BY ID
-DELETE {{api}}/products/30
+DELETE {{api}}/products/32
 
 ### UPDATE A PRODUCT
-PUT {{api}}/products/32
+PUT {{api}}/products/29
 Content-Type: application/json
 
 {
